@@ -12,6 +12,7 @@
 
 + (void)setBadge:(NSInteger)badge
 {
+    NSLog(@"%s", __func__);
     [JPUSHService setBadge:badge];
 }
 

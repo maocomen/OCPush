@@ -247,6 +247,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = maocomen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HCXVYWN652;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,12 +498,15 @@
 			baseConfigurationReference = 666B66B84446D80B3E101A5F /* Pods-OCPush_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HCXVYWN652;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCPush/OCPush-Prefix.pch";
 				INFOPLIST_FILE = "OCPush/OCPush-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "openaccount-development";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -509,12 +516,15 @@
 			baseConfigurationReference = 18409D2D73B9637AFE06F097 /* Pods-OCPush_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HCXVYWN652;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCPush/OCPush-Prefix.pch";
 				INFOPLIST_FILE = "OCPush/OCPush-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "openaccount-development";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

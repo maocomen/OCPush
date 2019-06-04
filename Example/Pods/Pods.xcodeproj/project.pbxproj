@@ -16,6 +16,8 @@
 		3E0AD111DEC6DE7FC099B9E2EF3D1706 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4084A0DF1F32926505FF841ECC1E7B /* Security.framework */; };
 		6C13989C904186F81C54FDC091EA08E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34F17BC28D53F7DF76DED530E5CF8E1 /* SystemConfiguration.framework */; };
 		6CA64A1D7710721652EFB5F160862826 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6824129155A0CDC6E099B8FD253C32AD /* CoreFoundation.framework */; };
+		840A3F9022A6812900551A00 /* libjcore-ios-2.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0B47027AFE77D108E5D40B90A399F2 /* libjcore-ios-2.0.1.a */; };
+		840A3F9122A6812C00551A00 /* libjpush-ios-3.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216D903EDA803EBD9F43B9D1B5A0450 /* libjpush-ios-3.2.0.a */; };
 		9166857ED36F5E58DB70A717596C581A /* OCPush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E0C89351BE3C56801FA007DFACE0C /* OCPush-dummy.m */; };
 		A66200FD07BE5FA89BAEF3E89116DDDC /* JPUSHService.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F30EC75D9A3F23D472EAE81C2473F2 /* JPUSHService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8E73F85F833BF6C890E5275BC7DF34C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026F6AAA834D954892ED1B240B71A642 /* UIKit.framework */; };
@@ -48,7 +50,7 @@
 
 /* Begin PBXFileReference section */
 		026F6AAA834D954892ED1B240B71A642 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		05AE1E8536AD6B5A056067AD6236FB2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		05AE1E8536AD6B5A056067AD6236FB2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0B3246D02B1C77D4255E266577B127C9 /* Pods-OCPush_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPush_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0DF027AE6C8C21C2CB5DCE8316AA2627 /* Pods-OCPush_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPush_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F5CC25918E5676BEEC118FF64263BE8 /* Pods-OCPush_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCPush_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -57,7 +59,7 @@
 		5262F09D6FB7C554B40C8E9DF79F0CED /* Pods-OCPush_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPush_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		52845F097ED4BFC6D89B6FE182FF1F1E /* OCPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCPush.xcconfig; sourceTree = "<group>"; };
 		538DD35EB2384BF0B413C5E86D6FA6D1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
-		55DBB7751FFF2F066B7D3EAE797780A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		55DBB7751FFF2F066B7D3EAE797780A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		560765EA12B003667F926BCB6FF6A608 /* Pods-OCPush_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCPush_Example-dummy.m"; sourceTree = "<group>"; };
 		58402AF759461F1FCB65107903DA9453 /* Pods-OCPush_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCPush_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A00FB206E79DB4E993F43D4C6475F4F /* Pods-OCPush_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCPush_Tests.modulemap"; sourceTree = "<group>"; };
@@ -69,19 +71,19 @@
 		827EED0E2DD8CB42718D7677BFF92219 /* Pods-OCPush_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCPush_Example.release.xcconfig"; sourceTree = "<group>"; };
 		93B7E4D003A3EB4AD0C1459ECC8E143F /* Pods-OCPush_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPush_Tests-Info.plist"; sourceTree = "<group>"; };
 		9ADEFD8E789CCE792779CE1C24B316E9 /* Pods-OCPush_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCPush_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E54DBE66EE1A06FBE24042A658C9741 /* OCPush-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCPush-umbrella.h"; sourceTree = "<group>"; };
-		9F50F7C0754DF62023BC3D4C44E9CFB7 /* Pods_OCPush_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCPush_Example.framework; path = "Pods-OCPush_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F50F7C0754DF62023BC3D4C44E9CFB7 /* Pods_OCPush_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCPush_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C0C9A59F89F2115DF64691BEA8F25F /* Pods-OCPush_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCPush_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A68D3572F37DC84E3B12062F31CD9379 /* OCPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCPush.framework; path = OCPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68D3572F37DC84E3B12062F31CD9379 /* OCPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD07E0C0C2C995CD9F7EE8821EE3E50C /* Pods-OCPush_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCPush_Tests-dummy.m"; sourceTree = "<group>"; };
 		AF12112CEBECB2E2B516CCA86FBA7DBA /* Pods-OCPush_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCPush_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AFE7F295D666BC7CC72FD3032ABE8C9D /* OCPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCPush.h; path = OCPush/Classes/OCPush.h; sourceTree = "<group>"; };
 		BD4084A0DF1F32926505FF841ECC1E7B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		CC955F0ABEA3E459BAF3601F72BDED95 /* Pods_OCPush_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCPush_Tests.framework; path = "Pods-OCPush_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC955F0ABEA3E459BAF3601F72BDED95 /* Pods_OCPush_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCPush_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC61BD1B0C1DA1DCE7616CB2E89C66A /* Pods-OCPush_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCPush_Example.modulemap"; sourceTree = "<group>"; };
 		CE5AD1401A2259DDFF4EB152AC0C9721 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		CF01D721DDED763998DA806B94F490BF /* OCPush.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCPush.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF01D721DDED763998DA806B94F490BF /* OCPush.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCPush.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D34F17BC28D53F7DF76DED530E5CF8E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		D59E0C89351BE3C56801FA007DFACE0C /* OCPush-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCPush-dummy.m"; sourceTree = "<group>"; };
 		DA0B47027AFE77D108E5D40B90A399F2 /* libjcore-ios-2.0.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libjcore-ios-2.0.1.a"; path = "OCPush/Vendors/libjcore-ios-2.0.1.a"; sourceTree = "<group>"; };
@@ -103,6 +105,8 @@
 				AF93EB17742F251C68C5B872EF8F6DCB /* CoreGraphics.framework in Frameworks */,
 				ECE57985BFFD21830BE9D37FA2D1D2FD /* CoreTelephony.framework in Frameworks */,
 				16CB7A44832681542DE208EF1EFDA385 /* Foundation.framework in Frameworks */,
+				840A3F9022A6812900551A00 /* libjcore-ios-2.0.1.a in Frameworks */,
+				840A3F9122A6812C00551A00 /* libjpush-ios-3.2.0.a in Frameworks */,
 				3E0AD111DEC6DE7FC099B9E2EF3D1706 /* Security.framework in Frameworks */,
 				6C13989C904186F81C54FDC091EA08E0 /* SystemConfiguration.framework in Frameworks */,
 				A8E73F85F833BF6C890E5275BC7DF34C /* UIKit.framework in Frameworks */,
@@ -278,9 +282,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A66200FD07BE5FA89BAEF3E89116DDDC /* JPUSHService.h in Headers */,
 				F0EEED89DA114CCE3AE37FB6920DCD9D /* OCPush-umbrella.h in Headers */,
 				DF7D43BF7E4B072BEDF9B38C288F9FDC /* OCPush.h in Headers */,
+				A66200FD07BE5FA89BAEF3E89116DDDC /* JPUSHService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +477,32 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULEMAP_FILE = "Target Support Files/OCPush/OCPush.modulemap";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+					"-l\"jcore-ios-2.0.1\"",
+					"-l\"jpush-ios-3.2.0\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserNotifications\"",
+				);
 				PRODUCT_MODULE_NAME = OCPush;
 				PRODUCT_NAME = OCPush;
 				SDKROOT = iphoneos;
@@ -537,8 +567,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -659,6 +688,32 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULEMAP_FILE = "Target Support Files/OCPush/OCPush.modulemap";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+					"-l\"jcore-ios-2.0.1\"",
+					"-l\"jpush-ios-3.2.0\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserNotifications\"",
+				);
 				PRODUCT_MODULE_NAME = OCPush;
 				PRODUCT_NAME = OCPush;
 				SDKROOT = iphoneos;
