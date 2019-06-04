@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'OCPush_Example' do
+  pod 'OCPush', :path => '../'
+
+  target 'OCPush_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
