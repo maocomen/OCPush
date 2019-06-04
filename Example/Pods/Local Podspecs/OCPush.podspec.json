@@ -1,0 +1,43 @@
+{
+  "name": "OCPush",
+  "version": "0.1.0",
+  "summary": "Custom OCPush.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/maocomen/OCPush",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maocomen": "13554778196@163.com"
+  },
+  "source": {
+    "git": "https://github.com/maocomen/OCPush.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "OCPush/Classes/**/*",
+  "frameworks": [
+    "CFNetwork",
+    "CoreFoundation",
+    "CoreGraphics",
+    "CoreTelephony",
+    "Foundation",
+    "Security",
+    "SystemConfiguration",
+    "UIKit",
+    "UserNotifications"
+  ],
+  "libraries": [
+    "z",
+    "resolv"
+  ],
+  "vendored_libraries": "OCPush/Vendors/*.a",
+  "preserve_paths": "OCPush/Vendors/*.a",
+  "pod_target_xcconfig": {
+    "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/OCPush/Vendors/"
+  }
+}

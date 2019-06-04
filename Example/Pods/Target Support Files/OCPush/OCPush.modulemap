@@ -1,0 +1,6 @@
+framework module OCPush {
+  umbrella header "OCPush-umbrella.h"
+
+  export *
+  module * { export * }
+}

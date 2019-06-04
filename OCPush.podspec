@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OCPush'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OCPush.'
+  s.summary          = 'Custom OCPush.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+  s.requires_arc = true
   s.source_files = 'OCPush/Classes/**/*'
+  
+  s.frameworks = 'CFNetwork', 'CoreFoundation', 'CoreGraphics', 'CoreTelephony', 'Foundation', 'Security', 'SystemConfiguration', 'UIKit', 'UserNotifications'
+  s.libraries    = 'z', 'resolv'
+  
+  s.vendored_libraries = 'OCPush/Vendors/*.a'
+  
+  s.preserve_paths = 'OCPush/Vendors/*.a'
+  s.pod_target_xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/OCPush/Vendors/' }
   
   # s.resource_bundles = {
   #   'OCPush' => ['OCPush/Assets/*.png']
